@@ -1,0 +1,42 @@
+{
+  "name": "@kaenbyoujs/database-core",
+  "description": "Cordis database plugin based on minato.",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "author": "Seidko <seidko.coding@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaenbyoujs/upstream.git",
+    "directory": "packages/database/core"
+  },
+  "bugs": {
+    "url": "https://github.com/kaenbyoujs/upstream/issues"
+  },
+  "homepage": "https://github.com/kaenbyoujs/upstream",
+  "keywords": [
+    "bot",
+    "adapter",
+    "protocol",
+    "chatbot",
+    "koishi",
+    "proxy",
+    "router"
+  ],
+  "koishi": {
+    "description": {
+      "en": "Cordis database plugin based on minato.",
+      "zh": "适用于 Cordis 的基于 minato 的 orm 插件。"
+    }
+  },
+  "dependencies": {
+    "@minatojs/core": "^2.6.1",
+    "cordis": "^3.3.1"
+  }
+}
