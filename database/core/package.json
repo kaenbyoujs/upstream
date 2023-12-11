@@ -22,21 +22,22 @@
   "homepage": "https://github.com/kaenbyoujs/upstream",
   "keywords": [
     "bot",
-    "adapter",
-    "protocol",
     "chatbot",
     "koishi",
-    "proxy",
-    "router"
+    "plugin",
+    "database",
+    "cordis",
+    "service",
+    "core"
   ],
-  "koishi": {
-    "description": {
-      "en": "Cordis database plugin based on minato.",
-      "zh": "适用于 Cordis 的基于 minato 的 orm 插件。"
-    }
+  "devDependencies": {
+    "cordis": "^3.3.1"
+  },
+  "peerDependencies": {
+    "cordis": "^3.3.1"
   },
   "dependencies": {
     "@minatojs/core": "^2.6.1",
-    "cordis": "^3.3.1"
+    "cosmokit": "^1.5.1"
   }
 }

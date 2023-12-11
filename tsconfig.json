@@ -3,9 +3,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@kaenbyoujs/*": [
-        "database/*"
+      "@kaenbyoujs/cordis-plugin-database-*": [
+        "database/*",
       ],
+      "@kaenbyoujs/cordis-plugin-*": [
+        "utils/*"
+      ]
     },
   },
   "files": [],
