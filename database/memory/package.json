@@ -44,10 +44,10 @@
     }
   },
   "peerDependencies": {
-    "cordis": "^3.3.1"
+    "cordis": "^3.4.0"
   },
   "dependencies": {
     "@kaenbyoujs/database-core": "^0.0.1",
-    "@minatojs/driver-memory": "^2.5.0"
+    "@minatojs/driver-memory": "^2.5.1"
   }
 }
